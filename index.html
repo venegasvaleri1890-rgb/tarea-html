@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Periódico</title>
+
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: #f5e6c8;
+            margin: 20px;
+        }
+
+        .titulo {
+            font-size: 50px;
+            text-align: center;
+            border-bottom: 5px double black;
+        }
+
+        .subtitulo {
+            text-align: center;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .menu {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .menu a {
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+        }
+
+        .contenedor {
+            display: flex;
+            gap: 20px;
+        }
+
+        .seccion {
+            background-color: white;
+            padding: 15px;
+            width: 50%;
+        }
+
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 class="titulo">📰 Bienvenidos a mi periodico .</h1>
+    <p class="subtitulo">Edición de hoy - Cultura y Deportes</p>
+
+    <div class="menu">
+        <a href="cultura.html">Cultura</a>
+        <a href="deportes.html">Deportes</a>
+    </div>
+
+    <div class="contenedor">
+
+        <div class="seccion">
+            <h2>Cultura</h2>
+            <img src="presentacion ct.jpeg">
+            <p>Explora tradiciones, arte y costumbres.</p>
+            <a href="cultura.html">Leer más...</a>
+        </div>
+
+        <div class="seccion">
+            <h2>Deportes</h2>
+            <img src="prsentacin dp.jpeg">
+            <p>Noticias deportivas y entretenimiento.</p>
+            <a href="deportes.html">Leer más...</a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
